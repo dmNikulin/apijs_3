@@ -1,0 +1,40 @@
+#photo-container {
+    width: 1240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.nav {
+    width: 700px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 55px;
+}
+
+.author {
+    height: 55px;
+    width: 33%;
+}
+
+.like {
+    width: 33%;
+}
+
+.like img {
+    height: 50px;
+}
+
+.quanity-likes {
+    height: 55px;
+    width: 33%;
+}
+
+.photo {
+    width: 700px;
+    display: block;
+    margin: 0 auto;
+}
